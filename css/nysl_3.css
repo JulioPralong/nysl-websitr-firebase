@@ -1,0 +1,404 @@
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif; 
+  background: url(images/nysl_logo.png), url(images/soccer.png); 
+  background-repeat: no-repeat; 
+  background-size: 150px 150px, 1380px 768px ;
+  background-attachment: fixed;
+  background-color: rgb(51, 36, 117);
+  font-family: monospace;
+}
+
+.respmen{
+  margin-left: 20%;
+}
+
+#ham{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  height: 70px;
+
+}
+
+#btn-menu{
+  display: none;
+}
+header{
+  width: 100%;
+}
+header label{
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+.menu ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li a{
+display: block;
+padding: 15px 20px;
+color: #fff;
+text-decoration: none;
+text-shadow: 1px 1px 2px black, 0 0 1em rgb(237, 237, 255), 0 0 0.2em rgb(239, 239, 255);
+  color: white;
+}
+.menu li:hover{
+  background: rgba(0, 0, 0, 0.3);
+}
+
+header label:hover {
+  cursor: pointer;
+}
+
+h1, h3{
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(237, 237, 255), 0 0 0.2em rgb(239, 239, 255);
+  color: white;
+}
+
+p{
+color: black;  
+}
+
+
+details > summary {
+  list-style-type: '▶️';
+}
+
+details[open] > summary {
+  list-style-type: '🔽';
+}
+
+details {
+  border: 1px solid rgb(51, 36, 117);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
+
+
+li{
+  text-align: left;
+  margin-right: 23px;
+}
+
+#container{
+  max-width: 900px;
+  min-width: 500px;
+  text-align: left;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+
+
+#pageheader{
+  position: relative;
+  left: 25%;
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+
+#bodycontent{
+  position: relative;
+  left: 35%;
+  background: rgb(42, 235, 42);
+  border-style: solid;
+  border-color: rgb(253, 253, 253);
+  border-width: 3px;
+  padding: 1em; 
+  width: 70%;
+  text-align: center;
+  z-index: 2;
+}
+
+#bodycontent h1{
+  font-size: 1.5em;
+}
+
+#bodycontent h2{
+  font-size: 1.1em;
+  text-transform:uppercase;
+}
+
+#bodyconent h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+#bodycontent ul{
+  list-style-type: square;
+}
+
+#infotable th{
+  text-decoration: underline;
+  padding: 0 1.0em;
+  padding-top: 1em; 
+}
+
+#infotable td{
+  text-align: left;
+  padding: 0 1.0em;
+}
+
+#bodycontent address{
+  font-style: normal;
+}
+
+#titlecenter{
+  text-align: center;
+}
+
+#upcoming h2{
+  font-size: 1.0em;
+  font-weight:normal;
+  font-style: italic; 
+  text-transform:none;
+  color: rgb(3, 3, 3);
+}
+
+iframe{
+  border: 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+#infotable h3, #rules h3{
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+#gamelocations td{
+  padding: 2em;
+}
+
+legend{
+  font-weight: bold;
+}
+
+fieldset{
+  margin: 2em 0;
+}
+
+fieldset label{
+  padding-left: 2em;
+}
+
+.impinfo{
+  font-weight: bold;
+  font-size:  .95em;
+  padding: 0em;
+}
+
+.note{
+  font-weight: normal;
+  font-size: 1.0em;
+}
+
+.indent{
+  margin-top: -1em;
+  margin-left: 1em;
+}
+
+.uniformchoice, .contract{
+  font-size: .8em;
+}
+
+.announcement{
+font-style: italic; 
+text-decoration: underline;
+}
+
+#first_name, #last_name, #street_address, #city, #zip, #birth_date, #parent_guardian, #contact_phone, #contact_email, #signature, #sig_date{
+  display: block;
+  margin-bottom: .5em;
+}
+#street_address{
+  width: 20em;
+}
+#city{
+  width: 15em;
+}
+#zip{
+  width: 4em;
+}
+#birth_date{
+  width: 6em;
+}
+#contact_phone{
+  width: 7em;
+} 
+#contact_email{
+  width: 15em;
+}
+#sig_date{
+  width: 5em;
+}
+
+fieldset{
+  border:solid 1px green;
+}
+
+form h3{
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.stylized label{
+  width:12em;
+  padding-right: 1em;
+  text-align: right;
+  float: left;  
+}
+
+input{
+  padding:4px 2px;
+  border:solid 1px green;
+}
+
+.contract{
+  font-size: bold;
+  width: 100%;
+}
+
+.con{
+color: black;
+font-weight: bold;
+}
+
+th{
+  border: 1px solid rgb(208, 255, 0);
+  background-color: rgb(51, 36, 117);
+  color: white;
+}
+
+table{
+  border: 2px solid black;
+  width: 100%;
+}
+table, td{
+  padding: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(237, 237, 255), 0 0 0.2em rgb(239, 239, 255);
+  color: white;
+}
+
+/*para 480px o menos*/
+@media screen and (max-width: 870px) {  
+
+  body {
+    font-family: Helvetica, Verdana, Arial, sans-serif; 
+    background: url(images/nysl_logo.png) 25% 25%, url(images/soccer.png) 55% 5%; 
+    background-repeat: no-repeat; 
+    background-size: 75px 75px, 1200px 800px ;
+    background-color: rgb(51, 36, 117);
+    font-family: monospace;
+  }
+
+
+ 
+  #bodycontent{
+    position: absolute;
+    left: -0%;
+    background: rgb(42, 235, 42);
+    border-style: solid;
+    border-color: rgb(253, 253, 253);
+    border-width: 3px;
+    padding: 1em; 
+    width: 93%;
+    text-align: center;
+    z-index: 0;
+    margin-top: 20px;
+
+    
+  }
+
+
+
+  #pageheader{
+    margin-left: 10%;
+    position: relative;
+    font-size: inherit;
+    font-style: italic;
+    text-align: center;
+    width: 40%;
+    bottom: 20px;
+
+    
+  }
+
+  #first_name, #last_name, #street_address, #city, #zip, #birth_date, #parent_guardian, #contact_phone, #contact_email, #signature, #sig_date{
+    display: block;
+    margin-bottom: .7em;
+    width: 100%;
+  }
+
+header label{
+  display: block;
+  left: 10%;
+}  
+.menu {
+  position: absolute;
+  width: 70%;
+  margin-left: -70%;
+  transition: all 0.5s;
+  background: rgb(42, 235, 42)
+}
+
+.menu ul{
+  flex-direction: column;
+}
+
+.menu li{
+  border: 1px solid rgb(51, 36, 117); 
+  width: 104%;
+}
+
+#btn-menu:checked ~ .menu {
+  margin: 0;
+}
+
+header{
+  margin: -17px;
+  left: -22%;
+  position: absolute;
+  z-index: 1;
+  
+}
+p{
+  font-size: 1.1rem;
+} 
+li{
+  font-size: 1.1rem;
+}
+h2{
+  font-size: 1.2rem;
+  padding: 4px;
+}
+label{
+  font-size: 1.2rem;
+}
+
+#rules, li, ol, ul{
+  width: 96%;
+}
+
+
+}
+
+@media screen and (max-width: 280px){
+  #pageheader{
+    left: 4%;
+    font-size: 0.8rem;
+  }
+}
